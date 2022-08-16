@@ -1,0 +1,25 @@
+{
+  "name": "transparent-theme",
+  "displayName": "transparent-theme",
+  "description": "a transparent theme for vscode",
+  "version": "0.1.0",
+  "repository": "https://github.com/leilynn/vscode-transparent-theme.git",
+  "author": "leilynn",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "vscode": "^1.56.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "transparent-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/transparent-theme-color-theme.json"
+      }
+    ]
+  }
+}
